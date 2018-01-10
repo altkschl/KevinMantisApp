@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "properties": {
+    "IssuesList": {
+      "type": "array",
+      "selectorAll": "body",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 3
+          },
+          "summary": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 10
+          },
+          "Category": {
+            "type": "string",
+            "selector": "td",
+            "control": "property.innerText",
+            "selectIndex": 6
+          },
+          "IsViewIssues": {
+            "type": "identifier",
+            "selector": "html",
+            "control": "url.view_all_bug_page"
+          }
+        }
+      }
+    }
+  },
+  "connect": [],
+  "selector": "#buglist tr[bgcolor]"
+}
