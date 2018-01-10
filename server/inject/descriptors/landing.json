@@ -1,12 +1,6 @@
 {
   "type": "object",
   "properties": {
-    "clickAssignedToMe": {
-      "type": "action",
-      "selector": "a",
-      "control": "action.link",
-      "selectContains": "Assigned to Me"
-    },
     "isLanding": {
       "type": "identifier",
       "selector": "a",
@@ -14,12 +8,5 @@
       "selectContains": "Assigned to Me"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "isLanding"
-      ],
-      "action": "clickAssignedToMe"
-    }
-  ]
+  "connect": []
 }
