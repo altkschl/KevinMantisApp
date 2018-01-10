@@ -4,7 +4,8 @@
     "islogin": {
       "type": "identifier",
       "selector": "body",
-      "control": "exists"
+      "control": "exists",
+      "selectContains": "Login"
     },
     "password": {
       "type": "string",
