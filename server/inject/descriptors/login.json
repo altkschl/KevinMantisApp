@@ -21,6 +21,11 @@
       "selector": "font",
       "control": "property.innerText",
       "selectContains": "Admin directory"
+    },
+    "submit": {
+      "type": "action",
+      "selector": ".button",
+      "control": "action.button"
     }
   },
   "connect": [
