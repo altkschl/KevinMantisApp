@@ -5,6 +5,22 @@
       "type": "identifier",
       "selector": "body",
       "control": "exists"
+    },
+    "password": {
+      "type": "string",
+      "selector": "[name=\"password\"]",
+      "control": "text"
+    },
+    "username": {
+      "type": "string",
+      "selector": "[name=\"username\"]",
+      "control": "text"
+    },
+    "errorMessage": {
+      "type": "string",
+      "selector": "font",
+      "control": "property.innerText",
+      "selectContains": "Admin directory"
     }
   },
   "connect": [
